@@ -1,0 +1,117 @@
+/**
+ * Main: #0475BA
+ */
+
+/**
+ * BASE
+ */
+
+body {
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.secondary-block {
+    color: #FFF;
+    background: #0475BA;
+}
+.secondary-block h3 {
+    color: #FFF;
+}
+
+header, section, footer {
+    padding: 40px;
+}
+
+section h3 {
+    color: #0475BA;
+}
+
+a {
+  color: #FFF;  
+}
+
+
+/**
+ * NAVIGATION
+ */
+nav {
+    height: 70px;
+}
+nav h2 {
+    padding: 20px 0 20px 15px;
+    margin: 0;
+    float: left;
+}
+
+
+    nav ul {
+        display: block;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding: 24px;
+    }
+    nav li {
+        float: left;
+        margin-left: 15px;
+    }
+
+
+
+/**
+ * HEADER
+ */
+
+header {
+    text-align: center;
+}
+header h2 {
+    color: #0475BA;
+}
+
+header img {
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px #AAA;
+}
+
+
+/**
+ * PRESENTATION
+ */
+
+/**
+ * EXPERIENCES, FORMATION
+ */
+
+#xp ul, #education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#xp li, #education li {
+    margin-bottom: 10px;
+}
+
+#xp aside, #education aside {
+    float: right;
+} 
+
+/**
+ * FOOTER
+ */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .links {
+    margin-bottom: 25px;
+}
+
